@@ -28,9 +28,9 @@ function showRandomMeal() {
     displayMeals()
   }
   if (selectedMeal === `entire`) {
-    side = getRandomMeal(sides);
-    main = getRandomMeal(mains);
-    dessert = getRandomMeal(desserts);
+    side = getRandomMeal(sides)
+    main = getRandomMeal(mains)
+    dessert = getRandomMeal(desserts)
     displayEntireMeal()
   }
 }
